@@ -1,22 +1,31 @@
 * {
-  /* text-align: center; */
+  text-align: center;
+  font-family: fantasy;
 }
+
+body {
+  background-image: url('https://www.sunnyskyz.com/uploads/2016/10/uf585-cheetah-cub-puppy-3.jpg');
+  background-size: cover;
+}
+
 .black {
   background-color: black;
   height: 330px;
   width: 330px;
   border: 10px black solid;
   padding: 0px;
+  margin: 0 auto;
 }
 
-#square {
+.square {
   height: 100px;
   width: 100px;
   background-color: grey;
   list-style: none;
   margin: 5px;
 }
-#square:hover {
+
+.square:hover {
   background-color: yellow;
 }
 
@@ -25,4 +34,20 @@ ul {
   /* height: 300px;
   width: 300px; */
   flex-wrap: wrap;
+}
+
+.white {
+  height: 100px;
+  width: 100px;
+  list-style: none;
+  margin: 5px;
+  background-color: white;
+}
+
+#p1 {
+  background-color: blue;
+  background-image: url('https://i.redd.it/51p5c1efueoy.jpg');
+}
+#p2 {
+  background-image: url('https://i.redd.it/51p5c1efueoy.jpg');
 }

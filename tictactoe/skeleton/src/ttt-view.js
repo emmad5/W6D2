@@ -2,10 +2,12 @@ class View {
   constructor(game, $el) {
     this.game = game;
     this.$el = $el;
-    setupBoard();
+    this.setupBoard();
   }
 
-  bindEvents() {}
+  bindEvents() {
+    
+  }
 
   makeMove($square) {}
 

@@ -28,9 +28,9 @@ li:hover .badge {
   font-size: 14px;
   white-space: nowrap;
   background: #fff;
-  border-left: 1px solid #ccc;
-  border-right: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
+  border-left: 1px solid blue;
+  border-right: 1px solid blue;
+  border-bottom: 1px solid blue;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   overflow: hidden;
@@ -41,7 +41,7 @@ li:hover .header-notifications {
 }
 
 .header-notifications > li {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid blue;
   color: #000;
 }
 

@@ -10,7 +10,7 @@ body {
 .header {
   background: #f00;
   color: #fff;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid blue;
 }
 
 .header a {
@@ -23,12 +23,12 @@ body {
   justify-content: space-between;
   margin: 0 auto;
   width: 900px;
-  border-left: 1px solid #ccc;
-  border-right: 1px solid #ccc;
+  border-left: 1px solid blue;
+  border-right: 1px solid blue;
 }
 
 .header-logo {
-  border-right: 1px solid #ccc;
+  border-right: 1px solid blue;
   font-weight: 700;
 }
 
@@ -41,7 +41,7 @@ body {
 }
 
 .header-list > li {
-  border-left: 1px solid #ccc;
+  border-left: 1px solid blue;
 }
 
 .header-list > li:hover {

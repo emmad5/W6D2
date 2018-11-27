@@ -1,14 +1,23 @@
+* {
+  /* text-align: center; */
+}
 .black {
   background-color: black;
-  height: 300px;
-  width: 300px;
+  height: 330px;
+  width: 330px;
   border: 10px black solid;
+  padding: 0px;
 }
 
 #square {
   height: 100px;
   width: 100px;
   background-color: grey;
+  list-style: none;
+  margin: 5px;
+}
+#square:hover {
+  background-color: yellow;
 }
 
 ul {

@@ -27,11 +27,11 @@
 }
 
 .profile-nav > li {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid blue;
 }
 
 .profile-nav > li:first-child {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid blue;
 }
 
 .profile-nav a {

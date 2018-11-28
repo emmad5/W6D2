@@ -104,7 +104,7 @@ eval("class Game {\n  constructor() {\n    this.towers = [[3, 2, 1], [], []];\n 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("\n\n//# sourceURL=webpack:///./src/hanoi-view.js?");
+eval("class HanoiView {\n  constructor(game, $el) {\n    this.game = game;\n    this.$el = $el;\n    this.setupTowers();\n  }\n  setupTowers() {\n    const $board = $(\"<div>\");\n    for (var i = 0; i < 3; i++) {\n      const $tower = $(\"<ul>\");\n      $tower.addClass('tower');\n      for (var j = 0; j < 3; j++) {\n        let $disc = $('<li>');\n        if (i === 0) {\n          $disc.addClass(`disc-${j + 1}`);\n        }\n        $tower.append($disc);\n      }\n      $board.append($tower);\n    }\n  }\n}\n\nmodule.exports = HanoiView; \n\n\n//# sourceURL=webpack:///./src/hanoi-view.js?");
 
 /***/ }),
 

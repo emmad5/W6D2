@@ -1,0 +1,29 @@
+h1  {
+  color: blue;
+}
+
+.tower {
+  height: 10px;
+  width: 100px;
+  background-color: black;
+}
+
+.disc-1 {
+  height: 40px;
+  width: 100px;
+  background-color: grey;
+  border-radius: 20px;
+}
+
+.disc-2 {
+  height: 40px;
+  width: 70px;
+  background-color: grey;
+  border-radius: 20px;
+}
+.disc-3 {
+  height: 40px;
+  width: 40px;
+  background-color: grey;
+  border-radius: 20px;
+}

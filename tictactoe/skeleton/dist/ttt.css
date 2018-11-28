@@ -1,18 +1,20 @@
 * {
   text-align: center;
   font-family: fantasy;
+  color: white;
+
 }
 
 body {
-  background-image: url('https://www.sunnyskyz.com/uploads/2016/10/uf585-cheetah-cub-puppy-3.jpg');
+  background-image: url('http://2.bp.blogspot.com/-53s_leBLnn8/T1JsYbRAqKI/AAAAAAAAAgE/NoyecgvdeNE/s1600/The-best-top-desktop-dog-wallpapers-12.jpg');
   background-size: cover;
 }
 
 .black {
-  background-color: black;
+  background-color: pink;
   height: 330px;
   width: 330px;
-  border: 10px black solid;
+  border: 10px pink solid;
   padding: 0px;
   margin: 0 auto;
 }
@@ -20,7 +22,7 @@ body {
 .square {
   height: 100px;
   width: 100px;
-  background-color: grey;
+  background-color: #E83B57;
   list-style: none;
   margin: 5px;
 }
@@ -36,18 +38,32 @@ ul {
   flex-wrap: wrap;
 }
 
-.white {
+.p1 {
   height: 100px;
   width: 100px;
   list-style: none;
   margin: 5px;
-  background-color: white;
+  background-color: blue;
+  background-image: url('https://i.redd.it/51p5c1efueoy.jpg');
+  background-size: 110px;
+  object-fit: cover;
+}
+.p2 {
+  height: 100px;
+  width: 100px;
+  list-style: none;
+  margin: 5px;
+  background-color: red;
+  background-image: url('http://s4782.pcdn.co/wp-content/uploads/2012/08/ivs_59153266.jpg');
+  background-size: 240px;
+  background-position: center;
+  object-fit: cover;
 }
 
-#p1 {
+/* #p1 {
   background-color: blue;
   background-image: url('https://i.redd.it/51p5c1efueoy.jpg');
 }
 #p2 {
   background-image: url('https://i.redd.it/51p5c1efueoy.jpg');
-}
+} */

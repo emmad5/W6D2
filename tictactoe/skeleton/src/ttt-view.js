@@ -21,13 +21,19 @@ class View {
     console.log(`you clicked ${pos}`);
     this.game.playMove(pos);
     $square.removeClass();
-    $square.addClass('white');
     if (this.game.currentPlayer === 'x') {
-      $square.attr('id', 'p1');
+      $square.addClass('p1');
     } else if (this.game.currentPlayer === 'o'){
-      $square.attr('id', 'p2');
+      $square.addClass('p2');
     } else {
       alert('WHAT THE HELL');
+    }
+    if (this.game.isOver()) {
+      setTimeout(function () {
+        alert(`💩 Over!! We're all winners here 🤡`);
+      }, 250);
+      // setTimeout
+      // location.reload();
     }
   }
 
